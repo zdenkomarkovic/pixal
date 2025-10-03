@@ -4,15 +4,31 @@ export const navList = [
     link: "/",
   },
   {
-    title: "Usluge",
+    title: "Proizvodi",
     list: [
       {
-        title: "Usluga 1",
-        link: "",
+        title: "PVC Stolarija",
+        link: "/pvc-stolarija",
       },
       {
-        title: "Usluga 2",
-        link: "",
+        title: "ALU Stolarija",
+        link: "/alu-stolarija",
+      },
+      {
+        title: "Vrata",
+        link: "/vrata",
+      },
+      {
+        title: "ALU Roletne",
+        link: "/roletne",
+      },
+      {
+        title: "ALU Komarnici",
+        link: "/komarnici",
+      },
+      {
+        title: "Venecijaneri",
+        link: "/venecijaneri",
       },
     ],
   },
