@@ -11,6 +11,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
+  SheetClose,
 } from "@/components/ui/sheet";
 
 import { motion } from "framer-motion";
@@ -29,7 +30,7 @@ const mobTitleStyles = "text-lg py-2";
 const MobileMenu = () => (
   <Sheet>
     <SheetTrigger className="lg:hidden">
-      <MenuIcon className="text-primary cursor-pointer" />
+      <MenuIcon className=" cursor-pointer" />
     </SheetTrigger>
     <SheetContent>
       <SheetHeader>
@@ -53,17 +54,18 @@ const MobileMenu = () => (
                         </motion.div>
                         <AccordionContent>
                           {item.list.map((link, index2) => (
-                            <Link
-                              className="pl-6 block font-light py-2"
-                              key={`${index}.${index2}`}
-                              href={link.link}
-                            >
-                              <motion.li
-                                whileHover={{ color: "hsl(var(--primary))" }}
+                            <SheetClose asChild key={`${index}.${index2}`}>
+                              <Link
+                                className="pl-6 block font-light py-2"
+                                href={link.link}
                               >
-                                {link.title}
-                              </motion.li>
-                            </Link>
+                                <motion.li
+                                  whileHover={{ color: "hsl(var(--primary))" }}
+                                >
+                                  {link.title}
+                                </motion.li>
+                              </Link>
+                            </SheetClose>
                           ))}
                         </AccordionContent>
                       </AccordionItem>
