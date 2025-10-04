@@ -52,7 +52,7 @@ export default function PVCStolarijaPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <AnimatedSection>
-              <div className="relative aspect-square mx-10">
+              <div className="relative aspect-square">
                 <Image
                   src="/optimized/70a1.webp"
                   alt="Kommerling 70AD"
@@ -65,26 +65,73 @@ export default function PVCStolarijaPage() {
             <AnimatedSection>
               <div>
                 <h2 className="text-3xl font-bold mb-4 text-primary">
-                  Kommerling 70AD
+                  Kommerling 70 AD
                 </h2>
                 <p className="text-lg mb-4">
-                  5-komorni sistem sa dubinom ugradnje od 70mm. Idealan za
-                  standardne zahteve toplotne i zvučne izolacije.
+                  Peti-komorni PVC profil ugradne dubine 70 mm sa duplo
+                  brtvojačkim sistemom (AD) koji omogućava vrhunsku termo i
+                  akustičnu zaštitu.
                 </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                    <span>Dubina ugradnje: 70mm</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                    <span>5-komorni sistem profila</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                    <span>Ekonomično rešenje</span>
-                  </li>
-                </ul>
+                <div className="mb-6">
+                  <h3 className="text-xl font-semibold mb-3">
+                    Ključne osobine
+                  </h3>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>Termo izolacija Uf vrednost 1,3–1,4 W/m²K</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>Akustična zaštita koja dostiže 45 dB</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>
+                        Armatura od čelika 1,5 mm za maksimalnu otpornost
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>
+                        Bezolovni PVC materijal (Greenline tehnologija)
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>Raspoloživo u belom koloritu</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="mb-6">
+                  <h3 className="text-xl font-semibold mb-3">Specifikacije</h3>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>Ugradna širina: 70 mm</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>Pet komora u profilu</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>
+                        Staklopaketi od 24 do 36 mm (dupli ili triplex)
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-3">
+                    Preporuka primene
+                  </h3>
+                  <p className="text-muted-foreground">
+                    Optimalno rešenje za obnovu prozora i vrata u stambenim
+                    objektima gde je potrebna pouzdana izolacija uz dostupnu
+                    investiciju
+                  </p>
+                </div>
               </div>
             </AnimatedSection>
           </div>
@@ -98,30 +145,79 @@ export default function PVCStolarijaPage() {
             <AnimatedSection>
               <div className="order-2 md:order-1">
                 <h2 className="text-3xl font-bold mb-4 text-primary">
-                  Kommerling 76AD
+                  Kommerling 76 AD
                 </h2>
                 <p className="text-lg mb-4">
-                  5-komorni sistem sa dubinom ugradnje od 76mm. Vrhunska
-                  toplotna izolacija za maksimalnu energetsku efikasnost.
+                  Napredni sistem sa pet komora i ugradnom širinom 76 mm,
+                  opremljen duplim brtvljenjem (AD) za superiorne termo i
+                  akustične performanse, uz elegantan i suptilan dizajn profila.
                 </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                    <span>Dubina ugradnje: 76mm</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                    <span>5-komorni sistem profila</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                    <span>Maksimalna energetska efikasnost</span>
-                  </li>
-                </ul>
+                <div className="mb-6">
+                  <h3 className="text-xl font-semibold mb-3">
+                    Ključne osobine
+                  </h3>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>Termo izolacija Uf vrednost 1,1–1,2 W/m²K</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>Akustična buka smanjena do nivoa od 48 dB</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>
+                        Armatura od čelika 1,5 mm za dugotrajnu čvrstoću
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>
+                        Bezolovni PVC materijal (Greenline tehnologija)
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>
+                        Povećana ugradna širina za optimalnu energetsku uštedu
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="mb-6">
+                  <h3 className="text-xl font-semibold mb-3">Specifikacije</h3>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>Ugradna širina: 76 mm</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>Pet komora u profilu</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>
+                        Staklopaketi od 24 do 36 mm (dupli ili triplex)
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-3">
+                    Preporuka primene
+                  </h3>
+                  <p className="text-muted-foreground">
+                    Idealan izbor za savremene objekte koji zahtevaju viši nivo
+                    izolacije i moderan estetski izgled, uz minimalan servis i
+                    dug vek upotrebe
+                  </p>
+                </div>
               </div>
             </AnimatedSection>
             <AnimatedSection>
-              <div className="relative aspect-square mx-10 order-1 md:order-2">
+              <div className="relative aspect-square order-1 md:order-2">
                 <Image
                   src="/optimized/5_System-76-AD-Standard_weiss_web.webp"
                   alt="Kommerling 76AD"
@@ -140,7 +236,7 @@ export default function PVCStolarijaPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <AnimatedSection>
-              <div className="relative  aspect-square mx-10">
+              <div className="relative  aspect-square">
                 <Image
                   src="/optimized/profil.webp"
                   alt="Kommerling 76MD"
@@ -153,26 +249,77 @@ export default function PVCStolarijaPage() {
             <AnimatedSection>
               <div>
                 <h2 className="text-3xl font-bold mb-4 text-primary">
-                  Kommerling 76MD
+                  Kommerling 76 MD
                 </h2>
                 <p className="text-lg mb-4">
-                  Premium sistem - kombinacija performansi i cene. Idealan za
-                  renovacije i adaptacije.
+                  Šesto-komorni PVC sistem ugradne širine 76 mm sa centralnim
+                  brtvljenjem (MD) koje značajno unapređuje termo i akustičnu
+                  izolaciju, pružajući superiorne energetske performanse i
+                  potpunu zaštitu od prodora vazduha.
                 </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                    <span>Dubina ugradnje: 76mm</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                    <span>Maksimalna energetska efikasnost</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                    <span>Vrhunske performanse</span>
-                  </li>
-                </ul>
+                <div className="mb-6">
+                  <h3 className="text-xl font-semibold mb-3">
+                    Ključne osobine
+                  </h3>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>Termo izolacija Uf vrednost 1,0–1,1 W/m²K</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>Vrhunska akustična zaštita do nivoa od 48 dB</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>
+                        Armatura od čelika 1,5 mm za maksimalnu otpornost
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>
+                        Bezolovni PVC materijal (Greenline tehnologija)
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>
+                        Centralni brtvljač za dodatnu barijeru protiv prolaza
+                        vazduha i vlage
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="mb-6">
+                  <h3 className="text-xl font-semibold mb-3">Specifikacije</h3>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>Ugradna širina: 76 mm</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>Šest komora u profilu</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>
+                        Staklopaketi od 24 do 36 mm (dupli ili triplex)
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-3">
+                    Preporuka primene
+                  </h3>
+                  <p className="text-muted-foreground">
+                    Najbolji izbor za objekte sa najvišim standardima u pogledu
+                    termo izolacije, sigurnosti i izdržljivosti kroz decenije
+                    upotrebe
+                  </p>
+                </div>
               </div>
             </AnimatedSection>
           </div>
@@ -186,31 +333,80 @@ export default function PVCStolarijaPage() {
             <AnimatedSection>
               <div className="order-2 md:order-1">
                 <h2 className="text-3xl font-bold mb-4 text-primary">
-                  Kommerling 88MD
+                  Kommerling 88 MD
                 </h2>
                 <p className="text-lg mb-4">
-                  Premium sistem sa dubinom ugradnje od 88mm. Najviši nivo
-                  toplotne i zvučne izolacije. Idealan za pasivne kuće i objekte
-                  sa visokim zahtevima.
+                  Elitni PVC profil sa sedam komora i ugradnom širinom 88 mm,
+                  opremljen centralnim brtvljenjem (MD) koji omogućava
+                  najnaprednije performanse u termo i akustičnoj zaštiti.
+                  Kreiran za projekte sa maksimalnom energetskom efikasnošću i
+                  savremenim estetskim zahtevima.
                 </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                    <span>Dubina ugradnje: 88mm</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                    <span>7-komorni sistem profila</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                    <span>Idealan za pasivne kuće</span>
-                  </li>
-                </ul>
+                <div className="mb-6">
+                  <h3 className="text-xl font-semibold mb-3">
+                    Ključne osobine
+                  </h3>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>Termo izolacija Uf vrednost ≈ 0,95 W/m²K</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>Vrhunska akustična barijera do 48 dB</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>
+                        Armatura od čelika 1,5 mm za vrhunsku rigidnost
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>
+                        Bezolovni PVC materijal (Greenline tehnologija)
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>
+                        Centralni brtvljač za maksimalnu barijeru protiv
+                        strujanja vazduha i prodora vlage
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="mb-6">
+                  <h3 className="text-xl font-semibold mb-3">Specifikacije</h3>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>Ugradna širina: 88 mm</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>Sedam komora u profilu</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                      <span>Troslojni staklopaketi 24-36 mm</span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-3">
+                    Preporuka primene
+                  </h3>
+                  <p className="text-muted-foreground">
+                    Vrhunsko rešenje za objekte sa najrigoroznijim kriterijumima
+                    energetske ušteде, premium estetike i dugovečnosti na
+                    najvišem nivou
+                  </p>
+                </div>
               </div>
             </AnimatedSection>
             <AnimatedSection>
-              <div className="relative  aspect-square mx-10 order-1 md:order-2">
+              <div className="relative  aspect-square order-1 md:order-2">
                 <Image
                   src="/optimized/KOEMMERLING-88-MD-Standard-weiss.webp"
                   alt="Kommerling 88MD"

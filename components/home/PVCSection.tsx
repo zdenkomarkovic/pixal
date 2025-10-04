@@ -35,19 +35,27 @@ export default function PVCSection() {
               <ul className="space-y-3 text-lg">
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Kommerling 70AD - 5-komorni sistem</span>
+                  <span>
+                    Kommerling 70AD - 5-komorni sistem sa 2 dihtung gume
+                  </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Kommerling 76AD - 5-komorni sistem</span>
+                  <span>
+                    Kommerling 76AD - 5-komorni sistem sa 2 dihtung gume
+                  </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Kommerling 76MD - Premium sistem</span>
+                  <span>
+                    Kommerling 76MD - Premium 6-komorni sistem sa 3 dihtung gume
+                  </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
-                  <span>Kommerling 88MD - Premium - vrhunska izolacija</span>
+                  <span>
+                    Kommerling 88MD - Premium 7-komorni sistem sa 3 dihtung gume
+                  </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary mt-1">•</span>
