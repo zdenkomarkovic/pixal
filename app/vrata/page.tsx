@@ -100,9 +100,9 @@ export default function VrataPage() {
               </div>
             </AnimatedSection>
             {ulaznaImages.map((img, i) => (
-              <AnimatedSection delay={i * 0.1}>
+              <AnimatedSection key={i} delay={i * 0.1}>
                 {" "}
-                <div key={i} className="relative aspect-[8/10]">
+                <div className="relative aspect-[8/10]">
                   <Image
                     src={img}
                     alt={`Ulazna vrata ${i + 1}`}
@@ -128,9 +128,9 @@ export default function VrataPage() {
           </AnimatedSection>
           <div className="grid md:grid-cols-4 gap-6 mb-8 items-center">
             {sigurnosnaImages.map((img, i) => (
-              <AnimatedSection delay={i * 0.1}>
+              <AnimatedSection key={i} delay={i * 0.1}>
                 {" "}
-                <div key={i} className="relative  aspect-[8/10]">
+                <div className="relative  aspect-[8/10]">
                   <Image
                     src={img}
                     alt={`Sigurnosna vrata ${i + 1}`}
@@ -201,8 +201,8 @@ export default function VrataPage() {
               </div>
             </AnimatedSection>
             {sobnaImages.map((img, i) => (
-              <AnimatedSection delay={i * 0.1}>
-                <div key={i} className="relative aspect-[8/10]">
+              <AnimatedSection key={i} delay={i * 0.1}>
+                <div className="relative aspect-[8/10]">
                   <Image
                     src={img}
                     alt={`Sobna vrata ${i + 1}`}
@@ -228,9 +228,9 @@ export default function VrataPage() {
           </AnimatedSection>
           <div className="grid md:grid-cols-3 items-center gap-8 mb-8">
             {roloImages.map((img, i) => (
-              <AnimatedSection delay={i * 0.1}>
+              <AnimatedSection key={i} delay={i * 0.1}>
                 {" "}
-                <div key={i} className="relative aspect-[15/10]">
+                <div className="relative aspect-[15/10]">
                   <Image
                     src={img}
                     alt={`Rolo vrata ${i + 1}`}

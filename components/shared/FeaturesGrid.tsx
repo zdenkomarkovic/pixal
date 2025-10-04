@@ -17,12 +17,9 @@ export default function FeaturesGrid({ features }: FeaturesGridProps) {
       {features.map((feature, index) => {
         const Icon = feature.icon;
         return (
-          <AnimatedSection delay={index * 0.05}>
+          <AnimatedSection key={index} delay={index * 0.05}>
             {" "}
-            <div
-              key={index}
-              className="bg-background p-6 rounded-lg text-center h-full"
-            >
+            <div className="bg-background p-6 rounded-lg text-center h-full">
               <Icon className="w-12 h-12 text-primary mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
               <p>{feature.description}</p>
