@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AnimatedSection from "../AnimatedSection";
 
 interface PageHeroProps {
   title: string;
@@ -27,10 +28,12 @@ export default function PageHero({
           unoptimized
         />
       </div>
-      <div className="relative text-center px-4 max-w-4xl">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">{title}</h1>
-        <p className="text-xl md:text-2xl">{subtitle}</p>
-      </div>
+      <AnimatedSection>
+        <div className="relative text-center px-4 max-w-4xl">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">{title}</h1>
+          <p className="text-xl md:text-2xl">{subtitle}</p>
+        </div>
+      </AnimatedSection>{" "}
     </section>
   );
 }

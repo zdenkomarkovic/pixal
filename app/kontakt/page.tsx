@@ -41,7 +41,7 @@ export default function KontaktPage() {
                     href="tel:+381600219015"
                     className="text-base hover:text-primary transition-colors"
                   >
-                    060 021 9015
+                    +38160 021 9015
                   </a>
                 </div>
               </div>
@@ -56,6 +56,12 @@ export default function KontaktPage() {
                   >
                     pixalpvc@gmail.com
                   </a>
+                  <a
+                    href="mailto:n.stojkovic13@hotmail.com"
+                    className="text-base hover:text-primary transition-colors break-all block"
+                  >
+                    n.stojkovic13@hotmail.com
+                  </a>
                 </div>
               </div>
 
@@ -69,7 +75,7 @@ export default function KontaktPage() {
                     rel="noopener noreferrer"
                     className="text-base hover:text-primary transition-colors"
                   >
-                    Koste Glavinica 2<br />
+                    Koste Glavinića 2<br />
                     Senjak, Savski venac
                     <br />
                     Beograd, Srbija
@@ -82,11 +88,11 @@ export default function KontaktPage() {
                 <div>
                   <h3 className="font-semibold text-lg mb-1">Radno vreme</h3>
                   <p className="text-base text-gray-600">
-                    Ponedeljak - Petak: 08:00 - 17:00
+                    Ponedeljak - Petak: 09:00 - 16:00
                     <br />
                     Subota: 09:00 - 14:00
                     <br />
-                    Nedelja: Zatvoreno
+                    Obavezno pozvati pre dolaska - često smo na terenu.
                   </p>
                 </div>
               </div>
@@ -147,7 +153,7 @@ export default function KontaktPage() {
             ></iframe>
           </div>
           <p className="text-center mt-4 text-base text-gray-600">
-            Lako nas pronađite na adresi Koste Glavinica 2, Senjak, Beograd
+            Lako nas pronađite na adresi Koste Glavinića 2, Senjak, Beograd
           </p>
         </div>
       </section>
@@ -167,7 +173,7 @@ export default function KontaktPage() {
             href="tel:+381600219015"
             className="bg-white text-primary px-6 md:px-8 py-3 rounded-lg text-lg md:text-xl font-semibold hover:bg-gray-100 transition-colors inline-block shadow-lg"
           >
-            Pozovite nas: 060 021 9015
+            Pozovite nas: +38160 021 9015
           </a>
         </div>
       </section>

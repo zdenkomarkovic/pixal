@@ -3,6 +3,7 @@ import PageHero from "@/components/shared/PageHero";
 import SectionIntro from "@/components/shared/SectionIntro";
 import FeaturesGrid from "@/components/shared/FeaturesGrid";
 import CTASection from "@/components/shared/CTASection";
+import AnimatedSection from "@/components/AnimatedSection";
 
 export default function VenecijaneriPage() {
   const features = [
@@ -33,7 +34,7 @@ export default function VenecijaneriPage() {
       <PageHero
         title="Venecijaneri"
         subtitle="Elegantan način kontrole svetlosti i privatnosti"
-        imageSrc="/optimized/prozor.webp"
+        imageSrc="/optimized/venecijaner.webp"
         imageAlt="Venecijaneri"
       />
 
@@ -47,29 +48,35 @@ export default function VenecijaneriPage() {
       {/* Materijali */}
       <section className="py-16 px-4 bg-background">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-primary">
-            Vrste Venecijanera
-          </h2>
+          <AnimatedSection>
+            {" "}
+            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-primary">
+              Vrste Venecijanera
+            </h2>
+          </AnimatedSection>
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-muted p-8 rounded-lg">
-              <h3 className="text-2xl font-semibold mb-4 text-primary">
-                Aluminijumski venecijaneri
-              </h3>
-              <ul className="space-y-3 mx-auto w-fit">
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Izdržljivi i dugotrajni</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Ne deformišu se od vlage</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Širina lamela: 16mm, 25mm, 50mm</span>
-                </li>
-              </ul>
-            </div>
+            <AnimatedSection>
+              {" "}
+              <div className="bg-muted p-8 rounded-lg">
+                <h3 className="text-2xl font-semibold mb-4 text-primary">
+                  Aluminijumski venecijaneri
+                </h3>
+                <ul className="space-y-3 mx-auto w-fit">
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Izdržljivi i dugotrajni</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Ne deformišu se od vlage</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Širina lamela: 16mm, 25mm, 50mm</span>
+                  </li>
+                </ul>
+              </div>
+            </AnimatedSection>
 
             {/* <div className="bg-muted p-8 rounded-lg">
               <h3 className="text-2xl font-semibold mb-4 text-primary">
@@ -91,25 +98,28 @@ export default function VenecijaneriPage() {
               </ul>
             </div> */}
 
-            <div className="bg-muted p-8 rounded-lg">
-              <h3 className="text-2xl font-semibold mb-4 text-primary">
-                PVC venecijaneri
-              </h3>
-              <ul className="space-y-3 mx-auto w-fit">
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Ekonomično rešenje</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Otporni na vlagu i vlažnost</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Idealni za kupatila i kuhinje</span>
-                </li>
-              </ul>
-            </div>
+            <AnimatedSection>
+              {" "}
+              <div className="bg-muted p-8 rounded-lg">
+                <h3 className="text-2xl font-semibold mb-4 text-primary">
+                  PVC venecijaneri
+                </h3>
+                <ul className="space-y-3 mx-auto w-fit">
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Ekonomično rešenje</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Otporni na vlagu i vlažnost</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Idealni za kupatila i kuhinje</span>
+                  </li>
+                </ul>
+              </div>
+            </AnimatedSection>
           </div>
         </div>
       </section>

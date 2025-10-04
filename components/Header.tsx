@@ -182,7 +182,7 @@ export default function Header() {
             } items-center gap-2 justify-center rounded-full   border-2 text-sm md:text-lg py-1 px-2 md:py-2 md:px-4 transition-colors flex`}
           >
             <PhoneIcon />
-            <p className="">060 021 9015</p>
+            <p className="">+38160 021 9015</p>
           </motion.button>
         </Link>
         <MobileMenu />

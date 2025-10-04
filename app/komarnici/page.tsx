@@ -4,6 +4,7 @@ import SectionIntro from "@/components/shared/SectionIntro";
 import FeaturesGrid from "@/components/shared/FeaturesGrid";
 import ImageGallery from "@/components/shared/ImageGallery";
 import CTASection from "@/components/shared/CTASection";
+import AnimatedSection from "@/components/AnimatedSection";
 
 export default function KomarniciPage() {
   const images = [
@@ -60,81 +61,91 @@ export default function KomarniciPage() {
       {/* Tipovi komarnika - custom content */}
       <section className="py-16 px-4 bg-background">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-primary">
-            Tipovi ALU Komarnika
-          </h2>
+          <AnimatedSection>
+            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-primary">
+              Tipovi ALU Komarnika
+            </h2>
+          </AnimatedSection>
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-muted p-8 rounded-lg">
-              <h3 className="text-2xl font-semibold mb-4 text-primary">
-                Fiksni komarnici
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Montaža sa unutrašnje ili spoljne strane prozora</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Ekonomično rešenje</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Jednostavna ugradnja i održavanje</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-muted p-8 rounded-lg">
-              <h3 className="text-2xl font-semibold mb-4 text-primary">
-                Roletni komarnici
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Vertikalno spuštanje i podizanje</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Ne zauzima prostor kada nije u upotrebi</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Elegantan i diskretan izgled</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-muted p-8 rounded-lg">
-              <h3 className="text-2xl font-semibold mb-4 text-primary">
-                Klizni komarnici
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Horizontalno klizanje levo-desno</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Savršeni za balkonska vrata</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-muted p-8 rounded-lg">
-              <h3 className="text-2xl font-semibold mb-4 text-primary">
-                Plise komarnici
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Harmonika sistem - nabiranje mrežice</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Kompaktan i funkcionalan</span>
-                </li>
-              </ul>
-            </div>
+            <AnimatedSection>
+              <div className="bg-muted p-8 rounded-lg">
+                <h3 className="text-2xl font-semibold mb-4 text-primary">
+                  Fiksni komarnici
+                </h3>
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>
+                      Montaža sa unutrašnje ili spoljne strane prozora
+                    </span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Ekonomično rešenje</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Jednostavna ugradnja i održavanje</span>
+                  </li>
+                </ul>
+              </div>
+            </AnimatedSection>
+            <AnimatedSection>
+              <div className="bg-muted p-8 rounded-lg">
+                <h3 className="text-2xl font-semibold mb-4 text-primary">
+                  Roletni komarnici
+                </h3>
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Vertikalno spuštanje i podizanje</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Ne zauzima prostor kada nije u upotrebi</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Elegantan i diskretan izgled</span>
+                  </li>
+                </ul>
+              </div>
+            </AnimatedSection>
+            <AnimatedSection>
+              <div className="bg-muted p-8 rounded-lg">
+                <h3 className="text-2xl font-semibold mb-4 text-primary">
+                  Klizni komarnici
+                </h3>
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Horizontalno klizanje levo-desno</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Savršeni za balkonska vrata</span>
+                  </li>
+                </ul>
+              </div>
+            </AnimatedSection>
+            <AnimatedSection>
+              {" "}
+              <div className="bg-muted p-8 rounded-lg">
+                <h3 className="text-2xl font-semibold mb-4 text-primary">
+                  Plise komarnici
+                </h3>
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Harmonika sistem - nabiranje mrežice</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Kompaktan i funkcionalan</span>
+                  </li>
+                </ul>
+              </div>
+            </AnimatedSection>
           </div>
         </div>
       </section>

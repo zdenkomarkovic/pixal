@@ -67,7 +67,7 @@ export default function AdditionalProducts() {
           </AnimatedSection>
           <AnimatedSection delay={0.3}>
             {" "}
-            <div className="text-center  rounded-xl  overflow-hidden shadow-lg hover:shadow-xl">
+            <div className="text-center h-full rounded-xl  overflow-hidden shadow-lg hover:shadow-xl">
               <div className="relative aspect-square ">
                 <Image
                   src="/optimized/vrata5.webp"

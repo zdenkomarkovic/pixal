@@ -4,6 +4,7 @@ import SectionIntro from "@/components/shared/SectionIntro";
 import FeaturesGrid from "@/components/shared/FeaturesGrid";
 import ImageGallery from "@/components/shared/ImageGallery";
 import CTASection from "@/components/shared/CTASection";
+import AnimatedSection from "@/components/AnimatedSection";
 
 export default function RoletnePage() {
   const images = [
@@ -64,59 +65,65 @@ export default function RoletnePage() {
       {/* Tipovi roletni */}
       <section className="py-16 px-4 bg-background">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-primary">
-            Tipovi ALU Roletni
-          </h2>
+          <AnimatedSection>
+            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-primary">
+              Tipovi ALU Roletni
+            </h2>
+          </AnimatedSection>
           <div className="grid md:grid-cols-2 gap-8">
             {/* Nadgradne roletne */}
-            <div className="bg-muted p-8 rounded-lg">
-              <h3 className="text-2xl font-semibold mb-4 text-primary">
-                Nadgradne roletne
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Montaža na fasadu iznad prozora</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Idealne za renoviranje postojećih objekata</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Vidljiva kutija roletne</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Jednostavna ugradnja</span>
-                </li>
-              </ul>
-            </div>
-
+            <AnimatedSection>
+              <div className="bg-muted p-8 rounded-lg">
+                <h3 className="text-2xl font-semibold mb-4 text-primary">
+                  Nadgradne roletne
+                </h3>
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Montaža na fasadu iznad prozora</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Idealne za renoviranje postojećih objekata</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Vidljiva kutija roletne</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Jednostavna ugradnja</span>
+                  </li>
+                </ul>
+              </div>
+            </AnimatedSection>
             {/* Ugradne roletne */}
-            <div className="bg-muted p-8 rounded-lg">
-              <h3 className="text-2xl font-semibold mb-4 text-primary">
-                Ugradne roletne
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Ugradnja u zid ili prozorski otvor</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Kutija roletne potpuno skrivena</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Elegantan izgled bez vidljivih elemenata</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
-                  <span>Najbolje za nove objekte</span>
-                </li>
-              </ul>
-            </div>
+            <AnimatedSection>
+              {" "}
+              <div className="bg-muted p-8 rounded-lg">
+                <h3 className="text-2xl font-semibold mb-4 text-primary">
+                  Ugradne roletne
+                </h3>
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Ugradnja u zid ili prozorski otvor</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Kutija roletne potpuno skrivena</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Elegantan izgled bez vidljivih elemenata</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                    <span>Najbolje za nove objekte</span>
+                  </li>
+                </ul>
+              </div>
+            </AnimatedSection>
           </div>
         </div>
       </section>
@@ -124,45 +131,57 @@ export default function RoletnePage() {
       {/* Sistemi upravljanja */}
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-primary">
-            Sistemi Upravljanja
-          </h2>
+          <AnimatedSection>
+            {" "}
+            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-primary">
+              Sistemi Upravljanja
+            </h2>
+          </AnimatedSection>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-background p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4 text-primary">
-                Ručno upravljanje
-              </h3>
-              <ul className="space-y-2">
-                <li>• Kaišem ili remenom</li>
-                <li>• Manuelno podizanje i spuštanje</li>
-                <li>• Ekonomično rešenje</li>
-                <li>• Pouzdano i jednostavno</li>
-              </ul>
-            </div>
+            <AnimatedSection>
+              {" "}
+              <div className="bg-background p-6 rounded-lg">
+                <h3 className="text-xl font-semibold mb-4 text-primary">
+                  Ručno upravljanje
+                </h3>
+                <ul className="space-y-2">
+                  <li>• Kaišem ili remenom</li>
+                  <li>• Manuelno podizanje i spuštanje</li>
+                  <li>• Ekonomično rešenje</li>
+                  <li>• Pouzdano i jednostavno</li>
+                </ul>
+              </div>
+            </AnimatedSection>
 
-            <div className="bg-background p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4 text-primary">
-                Električno upravljanje
-              </h3>
-              <ul className="space-y-2">
-                <li>• Prekidač na zidu</li>
-                <li>• Daljinski upravljač</li>
-                <li>• Automatsko podizanje/spuštanje</li>
-                <li>• Komfor i praktičnost</li>
-              </ul>
-            </div>
+            <AnimatedSection>
+              {" "}
+              <div className="bg-background p-6 rounded-lg">
+                <h3 className="text-xl font-semibold mb-4 text-primary">
+                  Električno upravljanje
+                </h3>
+                <ul className="space-y-2">
+                  <li>• Prekidač na zidu</li>
+                  <li>• Daljinski upravljač</li>
+                  <li>• Automatsko podizanje/spuštanje</li>
+                  <li>• Komfor i praktičnost</li>
+                </ul>
+              </div>
+            </AnimatedSection>
 
-            <div className="bg-background p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4 text-primary">
-                Smart upravljanje
-              </h3>
-              <ul className="space-y-2">
-                <li>• Upravljanje preko telefona</li>
-                <li>• Programiranje po rasporedu</li>
-                <li>• Integracija sa pametnim kućama</li>
-                <li>• Senzori za sunce i vetar</li>
-              </ul>
-            </div>
+            <AnimatedSection>
+              {" "}
+              <div className="bg-background p-6 rounded-lg">
+                <h3 className="text-xl font-semibold mb-4 text-primary">
+                  Smart upravljanje
+                </h3>
+                <ul className="space-y-2">
+                  <li>• Upravljanje preko telefona</li>
+                  <li>• Programiranje po rasporedu</li>
+                  <li>• Integracija sa pametnim kućama</li>
+                  <li>• Senzori za sunce i vetar</li>
+                </ul>
+              </div>
+            </AnimatedSection>
           </div>
         </div>
       </section>
@@ -170,27 +189,36 @@ export default function RoletnePage() {
       {/* Boje i završne obrade */}
       <section className="py-16 px-4 bg-background">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center text-primary">
-            Boje i Završne Obrade
-          </h2>
-          <p className="text-lg text-center mb-8">
-            Nudimo širok spektar boja i završnih obrada za aluminijumske lamele
-            i kutije:
-          </p>
+          <AnimatedSection>
+            {" "}
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center text-primary">
+              Boje i Završne Obrade
+            </h2>
+            <p className="text-lg text-center mb-8">
+              Nudimo širok spektar boja i završnih obrada za aluminijumske
+              lamele i kutije:
+            </p>
+          </AnimatedSection>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-muted p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3">Standardne boje</h3>
-              <p>
-                Bela, smeđa, siva, antracit, zelena i druge popularne boje po
-                RAL standardu
-              </p>
-            </div>
-            <div className="bg-muted p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-3">Dekor folije</h3>
-              <p>
-                Imitacija drveta u različitim tonovima - hrast, orah, mahagoni
-              </p>
-            </div>
+            <AnimatedSection>
+              {" "}
+              <div className="bg-muted p-6 rounded-lg">
+                <h3 className="text-xl font-semibold mb-3">Standardne boje</h3>
+                <p>
+                  Bela, smeđa, siva, antracit, zelena i druge popularne boje po
+                  RAL standardu
+                </p>
+              </div>
+            </AnimatedSection>
+            <AnimatedSection>
+              {" "}
+              <div className="bg-muted p-6 rounded-lg">
+                <h3 className="text-xl font-semibold mb-3">Dekor folije</h3>
+                <p>
+                  Imitacija drveta u različitim tonovima - hrast, orah, mahagoni
+                </p>
+              </div>
+            </AnimatedSection>
           </div>
         </div>
       </section>
@@ -206,55 +234,62 @@ export default function RoletnePage() {
 
       {/* Prednosti */}
       <section className="py-16 px-4 bg-background">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center text-primary">
-            Prednosti ALU Roletni
-          </h2>
-          <div className="grid md:grid-cols-2 gap-6 text-center">
-            <div>
-              <div className="flex items-center gap-3 mb-2 justify-center">
-                <CheckCircle2 className="w-6 h-6 text-primary  flex-shrink-0" />
-                <h3 className="font-semibold text-lg">Energetska efikasnost</h3>
+        <AnimatedSection>
+          {" "}
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center text-primary">
+              Prednosti ALU Roletni
+            </h2>
+            <div className="grid md:grid-cols-2 gap-6 text-center">
+              <div>
+                <div className="flex items-center gap-3 mb-2 justify-center">
+                  <CheckCircle2 className="w-6 h-6 text-primary  flex-shrink-0" />
+                  <h3 className="font-semibold text-lg">
+                    Energetska efikasnost
+                  </h3>
+                </div>
+                <p>Smanjenje troškova grejanja zimi i hlađenja leti</p>
               </div>
-              <p>Smanjenje troškova grejanja zimi i hlađenja leti</p>
-            </div>
-            <div className="">
-              <div className="flex items-center gap-3 mb-2 justify-center">
-                <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0" />
-                <h3 className="font-semibold text-lg">Zvučna izolacija</h3>
+              <div className="">
+                <div className="flex items-center gap-3 mb-2 justify-center">
+                  <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0" />
+                  <h3 className="font-semibold text-lg">Zvučna izolacija</h3>
+                </div>
+                <p>Redukcija spoljne buke do 50%</p>
               </div>
-              <p>Redukcija spoljne buke do 50%</p>
-            </div>
-            <div className="">
-              <div className="flex items-center gap-3 mb-2 justify-center">
-                <CheckCircle2 className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
-                <h3 className="font-semibold text-lg mb-1">Zaštita od sunca</h3>
+              <div className="">
+                <div className="flex items-center gap-3 mb-2 justify-center">
+                  <CheckCircle2 className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
+                  <h3 className="font-semibold text-lg mb-1">
+                    Zaštita od sunca
+                  </h3>
+                </div>
+                <p>100% zaštita od UV zraka i pregrevanja prostora</p>
               </div>
-              <p>100% zaštita od UV zraka i pregrevanja prostora</p>
-            </div>
-            <div className="">
-              <div className="flex items-center gap-3 mb-2 justify-center">
-                <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0" />
-                <h3 className="font-semibold text-lg">Privatnost</h3>
+              <div className="">
+                <div className="flex items-center gap-3 mb-2 justify-center">
+                  <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0" />
+                  <h3 className="font-semibold text-lg">Privatnost</h3>
+                </div>
+                <p>Potpuna kontrola privatnosti u vašem domu</p>
               </div>
-              <p>Potpuna kontrola privatnosti u vašem domu</p>
-            </div>
-            <div className="">
-              <div className="flex items-center gap-3 mb-2 justify-center">
-                <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0" />
-                <h3 className="font-semibold text-lg">Zaštita od provale</h3>
+              <div className="">
+                <div className="flex items-center gap-3 mb-2 justify-center">
+                  <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0" />
+                  <h3 className="font-semibold text-lg">Zaštita od provale</h3>
+                </div>
+                <p>Dodatna sigurnost i protivprovalna zaštita</p>
               </div>
-              <p>Dodatna sigurnost i protivprovalna zaštita</p>
-            </div>
-            <div className="">
-              <div className="flex items-center gap-3 mb-2 justify-center">
-                <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0" />
-                <h3 className="font-semibold text-lg">Dugovečnost</h3>
+              <div className="">
+                <div className="flex items-center gap-3 mb-2 justify-center">
+                  <CheckCircle2 className="w-6 h-6 text-primary flex-shrink-0" />
+                  <h3 className="font-semibold text-lg">Dugovečnost</h3>
+                </div>
+                <p>Garancija na materijal i rad</p>
               </div>
-              <p>Garancija na materijal i rad</p>
             </div>
           </div>
-        </div>
+        </AnimatedSection>
       </section>
     </div>
   );

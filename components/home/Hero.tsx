@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="relative h-[100dvh] flex items-end justify-start text-white">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/2151004028.jpg"
+          src="/optimized/2151004028.webp"
           alt="Pixal PVC i ALU stolarija"
           fill
           className="object-cover"

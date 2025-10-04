@@ -138,7 +138,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-primary transition-colors text-sm"
                 >
-                  Koste Glavinica 2<br />
+                  Koste Glavinića 2<br />
                   Senjak, Savski venac
                   <br />
                   Beograd, Srbija
@@ -150,7 +150,7 @@ export default function Footer() {
                   href="tel:+381600219015"
                   className="text-gray-300 hover:text-primary transition-colors text-sm"
                 >
-                  060 021 9015
+                  +38160 021 9015
                 </a>
               </li>
               <li className="flex items-center gap-3">
@@ -160,6 +160,15 @@ export default function Footer() {
                   className="text-gray-300 hover:text-primary transition-colors text-sm"
                 >
                   pixalpvc@gmail.com
+                </a>
+              </li>
+              <li className="flex items-center gap-3">
+                <Mail className="w-5 h-5 text-primary flex-shrink-0" />
+                <a
+                  href="mailto:n.stojkovic13@hotmail.com"
+                  className="text-gray-300 hover:text-primary transition-colors text-sm"
+                >
+                  n.stojkovic13@hotmail.com
                 </a>
               </li>
             </ul>
