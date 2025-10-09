@@ -17,7 +17,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Pixal - PVC i ALU stolarija | Izrada po meri",
-  description: "Pixal - Profesionalna izrada i ugradnja PVC i ALU stolarije, sobna i sigurnosna vrata, roletne i komarnici. Kommerling i Alumil sistemi. Servis i održavanje. Senjak, Beograd.",
+  description:
+    "Pixal - Profesionalna izrada i ugradnja PVC i ALU stolarije, sobna i sigurnosna vrata, roletne i komarnici. Kommerling i Alumil sistemi. Servis i održavanje. Senjak, Beograd.",
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
@@ -27,9 +28,24 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   manifest: "/site.webmanifest",
-  keywords: ["pvc stolarija", "alu stolarija", "kommerling", "alumil", "prozori", "vrata", "roletne", "komarnici", "sigurnosna vrata", "sobna vrata", "izrada po meri", "beograd", "senjak", "servis stolarije"],
+  keywords: [
+    "pvc stolarija",
+    "alu stolarija",
+    "kommerling",
+    "alumil",
+    "prozori",
+    "vrata",
+    "roletne",
+    "komarnici",
+    "sigurnosna vrata",
+    "sobna vrata",
+    "izrada po meri",
+    "beograd",
+    "senjak",
+    "servis stolarije",
+  ],
   alternates: {
-    canonical: "https://www.pixalpvc.com/",
+    canonical: "https://pvcstolarijapixal.rs/",
   },
 };
 
