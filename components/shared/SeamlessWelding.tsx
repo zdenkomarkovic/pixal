@@ -7,7 +7,7 @@ export default function SeamlessWelding() {
       <div className="max-w-7xl mx-auto">
         <AnimatedSection>
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center text-primary">
-            Bezšavna izrada profila 76mm
+            Bešavna izrada profila 76mm
           </h2>
           <p className="text-lg md:text-xl mb-8 text-center max-w-3xl mx-auto">
             Koristimo savremenu mašinu koja omogućava bezšavno zavarivanje
