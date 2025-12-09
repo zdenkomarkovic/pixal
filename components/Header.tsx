@@ -98,7 +98,7 @@ const DesktopNav = () => (
           <HoverCard key={index} openDelay={0} closeDelay={50}>
             <HoverCardTrigger>
               <motion.div
-                whileHover={{ color: "hsl(var(--primary))", scale: 1.1 }}
+                whileHover={{ scale: 1.1 }}
                 className="flex gap-1 transition-colors"
               >
                 {item.title}
@@ -126,7 +126,7 @@ const DesktopNav = () => (
         <Link key={index} href={item.link}>
           <motion.li
             className="transition-colors underline-animation"
-            whileHover={{ color: "hsl(var(--primary))", scale: 1.1 }}
+            whileHover={{ scale: 1.1 }}
           >
             {item.title}
           </motion.li>
@@ -172,18 +172,14 @@ export default function Header() {
         </Link>
         <DesktopNav />
         <Link href="tel:+381600219015">
-          <motion.button
-            whileHover={{
-              color: "hsl(var(--foreground))",
-              backgroundColor: "hsl(var(--primary))",
-            }}
+          <button
             className={` ${
               scrolled ? "text-primary border-primary" : ""
-            } items-center gap-2 justify-center rounded-full   border-2 text-sm md:text-lg py-1 px-2 md:py-2 md:px-4 transition-colors flex`}
+            } items-center gap-2 justify-center rounded-full hover:bg-primary  border-2 text-sm md:text-lg py-1 px-2 md:py-2 md:px-4 transition-colors flex`}
           >
             <PhoneIcon />
             <p className="">+38160 021 9015</p>
-          </motion.button>
+          </button>
         </Link>
         <MobileMenu />
       </nav>

@@ -5,6 +5,9 @@ import AnimatedSection from "../AnimatedSection";
 
 export default function Gallery() {
   const images = [
+    "/optimized/IMG-5ea23e38e7e3c608e599f6ad697bb945-V.jpg",
+    "/optimized/IMG-048b2e2abcc69e5fba27ed32b6326f35-V.jpg",
+    "/optimized/IMG-03344a8a94021bd373593cb47497b7b2-V.jpg",
     "/optimized/balkon.webp",
     "/optimized/balkon1.webp",
     "/optimized/izlog.webp",
